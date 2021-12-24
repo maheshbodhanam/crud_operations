@@ -1,0 +1,47 @@
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+  font-size: 32px;
+}
+td input{
+  width: 100%;
+  height: 100%;
+}
+td button{
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+form {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+
+  
+}
+.forminput{
+  width: 100%;
+}
+
+.forminput input{
+  width: 21%;
+
+}
+.forminput button{
+  width: 16%;
+}
+
+
+
+form * {
+  font-size: 28px;
+}
